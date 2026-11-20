@@ -1,0 +1,25 @@
+# Authentication, Profiles and Secrets
+.env
+auth_state.json
+chrome_profile/
+.env.example
+
+# Execution Outputs, Downloads and Screenshots
+Runs/
+*.png
+*.xlsx
+!config/urls_config.xlsx
+
+# Python & Environment Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.log
+
+# Playwright Artifacts
+test-results/
+playwright-report/
+.cache/
